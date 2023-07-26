@@ -34,6 +34,25 @@ body {
 }
 
 .Heropage {
+  @media only screen and (max-width: 600px) {
+    .herotext {
+      margin-top: 10px;
+      color: #fff;
+      font-family: Poppins;
+      font-size: 45px !important;
+      font-style: normal;
+      font-weight: 500 !important;
+    }
+    .generation {
+      font-size: 45px !important;
+    }
+    .heroimg {
+      width: 197px !important;
+      height: 300px !important;
+      flex-shrink: 0;
+      margin-left: 0px !important;
+    }
+  }
   .herotext {
     color: #fff;
     font-family: Poppins;
@@ -131,6 +150,26 @@ body {
 }
 
 .Business {
+  @media only screen and (max-width: 600px) {
+    .shield-background {
+      border-radius: 20px;
+      background: linear-gradient(#2d2935, #14101d);
+      box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+      width: 100% !important;
+      height: 142px !important;
+      flex-shrink: 0;
+    }
+    .text-wrapper {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 35px !important;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 160%; /* 76.8px */
+        letter-spacing: 0.48px;
+      }
+
+  }
   .text-wrapper {
     color: #fff;
     font-family: Poppins;
@@ -194,7 +233,7 @@ body {
   }
   .shield-background {
     border-radius: 20px;
-    background: linear-gradient(#2D2935, #14101d);
+    background: linear-gradient(#2d2935, #14101d);
     box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
     width: 470px;
     height: 115px;
