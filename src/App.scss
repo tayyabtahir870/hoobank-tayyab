@@ -1,0 +1,99 @@
+body {
+  background-image: linear-gradient(#272727, #11101d);
+  background-repeat: no-repeat;
+}
+.Header {
+  .navbar {
+    background-color: transparent !important;
+  }
+
+  .hoo {
+    color: white;
+    font-size: 18;
+    font-family: "Poppins";
+    font-weight: "600";
+    word-wrap: "break-word";
+  }
+  .bank {
+    color: #5ce1e6;
+    font-size: 18;
+    font-family: "Poppins";
+    font-weight: "600";
+    word-wrap: "break-word";
+  }
+
+  .headertext {
+    color: #fff !important;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 20.8px */
+  }
+}
+
+.Heropage {
+  .herotext {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 100.8px */
+    letter-spacing: 0.72px;
+  }
+
+  .generation {
+    font-family: Poppins;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 100.8px */
+    letter-spacing: 0.72px;
+    background: radial-gradient(
+      64.33% 64.33% at 71.16% 35.69%,
+      #def9fa 0.89%,
+      #bef3f5 17.23%,
+      #9dedf0 42.04%,
+      #7de7eb 55.12%,
+      #5ce1e6 71.54%,
+      #33bbcf 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .heroimg {
+    width: 669px;
+    height: 674px;
+    flex-shrink: 0;
+    margin-left: 111px !important;
+  }
+
+  .heropara {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; /* 30.6px */
+  }
+
+  .labeltext {
+    color: #fff !important;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+  }
+  .discount {
+    color: rgba(255, 255, 255, 0.6) !important;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+}
