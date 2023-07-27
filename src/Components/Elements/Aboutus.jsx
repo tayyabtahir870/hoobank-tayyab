@@ -109,33 +109,33 @@ function Aboutus() {
           <div className="col-md-3">
             <img
               src="Assests/airbnb.png"
-              className="img-fluid"
+              className="img-fluid img-about"
               alt=""
-              width={200}
+            
             />
           </div>
           <div className="col-md-3">
             <img
               src="Assests/binance.png"
-              className="img-fluid mt-2"
+              className="img-fluid mt-2 img-about"
               alt=""
-              width={200}
+            
             />
           </div>
           <div className="col-md-3">
             <img
               src="Assests/coinbase.png"
               alt=""
-              className="img-fluid mt-1"
-              width={200}
+              className="img-fluid mt-1 img-about"
+             
             />
           </div>
           <div className="col-md-3">
             <img
               src="Assests/dropbox.png"
               alt=""
-              className="img-fluid mt-2"
-              width={200}
+              className="img-fluid mt-2 img-about"
+            
             />
           </div>
         </div>

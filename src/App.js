@@ -7,6 +7,7 @@ import Transition from './Components/Elements/Transition';
 import Steps from './Components/Elements/Steps';
 import Aboutus from './Components/Elements/Aboutus';
 import Service from './Components/Elements/Service';
+import Footer from './Components/Layouts/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
      <Steps/>
      <Aboutus/>
      <Service/>
+     <Footer/>
     </div>
   );
 }

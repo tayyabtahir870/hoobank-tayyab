@@ -241,6 +241,17 @@ body {
 }
 
 .Aboutus {
+  @media only screen and (max-width: 600px) {
+  .img-about{
+   display: none;
+  }
+  }
+
+  .img-about{
+
+    width: 150px;
+
+  } 
   .people {
     color: #fff;
     font-family: Poppins;
@@ -294,6 +305,47 @@ body {
 }
 
 .Service {
+  @media only screen and (max-width: 600px) {
+     
+    .servicepara{
+      color: rgba(255, 255, 255, 0.70);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+  letter-spacing: 0.18px;
+  padding-left: 30px;
+  padding-bottom: 10px !important;
+    }
+
+    .button {
+      color: #00040e;
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%; /* 27px */
+      text-transform: capitalize;
+      border-radius: 10px;
+      background: linear-gradient(
+        180deg,
+        #def9fa 0.89%,
+        #bef3f5 17.23%,
+        #9dedf0 42.04%,
+        #7de7eb 55.12%,
+        #5ce1e6 71.54%,
+        #33bbcf 100%
+      );
+      width: 170px;
+      height: 56px;
+      flex-shrink: 0;
+      border: none;
+      margin-top: 10px !important;
+      margin-bottom: 70px !important;
+      margin-left: 30px !important;
+    }
+  }
   .container {
     border-radius: 20px;
     background: linear-gradient(154deg, #11101D 16.15%, #6D6D6D 57.81%, #11101D 93.23%);
@@ -349,4 +401,38 @@ padding-bottom: 60px;
     margin-top: 110px;
   }
 
+}
+
+.Footer{
+  .hoopara{
+    color: rgba(255, 255, 255, 0.70);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 177.778% */
+  }
+
+  .list1{
+    color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 27px */
+margin-left: 30px;
+  }
+
+  .list{
+    list-style: none;
+  }
+
+  .listcontent{
+    color: rgba(255, 255, 255, 0.70);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+  }
 }
