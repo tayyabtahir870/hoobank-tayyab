@@ -447,9 +447,8 @@ line-height: 150%; /* 24px */
 
   
   @media only screen and (max-width: 600px) {
-    .lowerfooter{
-      display: flex;
-      justify-content:flex-end !important;
-    }
+   .footerpic{
+    display: none;
+   }
   }
 }

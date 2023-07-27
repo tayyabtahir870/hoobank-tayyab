@@ -53,7 +53,7 @@ function Footer() {
           </div>
           
           <div>
-          <img src="Assests/insta.svg" className="img-fluid mt-4" alt="" />
+          <img src="Assests/insta.svg" className="img-fluid mt-4 footerpic" alt="" />
           </div>
         </div>
       </div>
