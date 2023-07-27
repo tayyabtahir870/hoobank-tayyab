@@ -1,5 +1,6 @@
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
 import Header from './Components/Layouts/Header';
 import Heropage from './Components/Elements/Heropage';
 import Business from './Components/Elements/Business';
