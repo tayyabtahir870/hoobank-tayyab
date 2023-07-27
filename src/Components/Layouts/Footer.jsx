@@ -44,6 +44,18 @@ function Footer() {
             </ul>
           </div>
         </div>
+
+        <hr className="line" />
+
+        <div className="lowerfooter">
+          <div>
+<img src="Assests/copyright.png" className="img-fluid mt-4 mb-4" alt="" />
+          </div>
+          
+          <div>
+          <img src="Assests/insta.svg" className="img-fluid mt-4" alt="" />
+          </div>
+        </div>
       </div>
     </div>
   );

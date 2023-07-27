@@ -435,4 +435,21 @@ font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 24px */
   }
+
+  .line{
+    color: #3F3E45;
+  }
+  .lowerfooter{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  
+  @media only screen and (max-width: 600px) {
+    .lowerfooter{
+      display: flex;
+      justify-content:flex-end !important;
+    }
+  }
 }
