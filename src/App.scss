@@ -160,15 +160,14 @@ body {
       flex-shrink: 0;
     }
     .text-wrapper {
-        color: #fff;
-        font-family: Poppins;
-        font-size: 35px !important;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 160%; /* 76.8px */
-        letter-spacing: 0.48px;
-      }
-
+      color: #fff;
+      font-family: Poppins;
+      font-size: 35px !important;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 160%; /* 76.8px */
+      letter-spacing: 0.48px;
+    }
   }
   .text-wrapper {
     color: #fff;
@@ -239,4 +238,115 @@ body {
     height: 115px;
     flex-shrink: 0;
   }
+}
+
+.Aboutus {
+  .people {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 170%; /* 81.6px */
+  }
+  .people-para {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 32.4px */
+    letter-spacing: 0.18px;
+  }
+  .card {
+    border-radius: 20px;
+    background: linear-gradient(#11101d, #6d6d6d, #11101d);
+    border: none !important;
+  }
+  .card-text {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 32.4px */
+    letter-spacing: 0.36px;
+    margin-top: 25px !important;
+  }
+
+  .founder {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+  }
+
+  .leader {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+.Service {
+  .container {
+    border-radius: 20px;
+    background: linear-gradient(154deg, #11101D 16.15%, #6D6D6D 57.81%, #11101D 93.23%);
+    backdrop-filter: blur(5px);
+    
+  }
+
+  .servicetext {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 67.2px */
+    padding-top: 60px;
+    padding-left: 30px;
+   
+  }
+
+  .servicepara{
+    color: rgba(255, 255, 255, 0.70);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 28.8px */
+letter-spacing: 0.18px;
+padding-left: 30px;
+padding-bottom: 60px;
+  }
+  .button {
+    color: #00040e;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+    text-transform: capitalize;
+    border-radius: 10px;
+    background: linear-gradient(
+      180deg,
+      #def9fa 0.89%,
+      #bef3f5 17.23%,
+      #9dedf0 42.04%,
+      #7de7eb 55.12%,
+      #5ce1e6 71.54%,
+      #33bbcf 100%
+    );
+    width: 170px;
+    height: 56px;
+    flex-shrink: 0;
+    border: none;
+    margin-top: 110px;
+  }
+
 }

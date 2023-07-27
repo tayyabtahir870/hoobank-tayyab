@@ -4,6 +4,9 @@ import Header from './Components/Layouts/Header';
 import Heropage from './Components/Elements/Heropage';
 import Business from './Components/Elements/Business';
 import Transition from './Components/Elements/Transition';
+import Steps from './Components/Elements/Steps';
+import Aboutus from './Components/Elements/Aboutus';
+import Service from './Components/Elements/Service';
 
 function App() {
   return (
@@ -12,6 +15,9 @@ function App() {
      <Heropage/>
      <Business/>
      <Transition/>
+     <Steps/>
+     <Aboutus/>
+     <Service/>
     </div>
   );
 }
